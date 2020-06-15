@@ -1,20 +1,14 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import Main from './components/mainComponents';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Anurag Goenka is learning App Dev</Text>
-      <Text>Anurag App Mobile Development</Text>
-    </View>
-  );
-}
+class App extends React.Component {
+  render(){
+      return (
+        <Main />
+      );
+    }
+  }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  export default App;
+  
+
