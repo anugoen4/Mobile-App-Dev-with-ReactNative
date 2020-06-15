@@ -4,8 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Anurag Goenkaa is learning App Dev</Text>
-      <Text>Anurag App Mobile Dev</Text>
+      <Text>Anurag Goenka is learning App Dev</Text>
+      <Text>Anurag App Mobile Development</Text>
     </View>
   );
 }
